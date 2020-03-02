@@ -1,1 +1,0 @@
-def advanced_sensor():
