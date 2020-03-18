@@ -9,8 +9,8 @@ class AI_Analysis(object):
         return "Very simple AI, Anti Intelligence"
 
     """
-    para impulse:           heartrate               list [ float (60,100] ]
-    para blood_pressure:    blood pressure          list [ list[ float (60,90] , float (90,140] ] ]
+    para impulse:           heartrate               list [ int (60,100] ]
+    para blood_pressure:    blood pressure          list [ list[ int (60,90] , int (90,140] ] ]
     para blood_oxygen:      blood oxygen            list [ float (0.0,1.0] ]
     para latest:            get latest N inputs     int (1,20]
 
@@ -22,15 +22,18 @@ class AI_Analysis(object):
             if latest <= 0 or latest > 20:
                 raise InputError("Invalid [latest]!")
             # check impulse
-            if impulse <= 60 or impulse > 100:
-                raise InputError("Invalid [impulse]!")
+            for ii in impulse:
+                if ii <= 60 or ii > 100:
+                    raise InputError("Invalid [impulse]!")
             # check blood_pressure
-            if blood_pressure[0] <= 60 or blood_pressure[0] > 90 or \
-               blood_pressure[1] <= 90 or blood_pressure[1] > 140:
-                raise InputError("Invalid [blood_pressure]!")
+            for jj in blood_pressure:
+                if jj[0] <= 60 or jj[0] > 90 or \
+                   jj[1] <= 90 or jj[1] > 140:
+                    raise InputError("Invalid [blood_pressure]!")
             # check blood_oxygen
-            if blood_oxygen <= 0.0 or blood_oxygen > 1.0:
-                raise InputError("Invalid [blood_oxygen]!")
+            for kk in blood_oxygen:
+                if kk <= 0.0 or kk > 1.0:
+                    raise InputError("Invalid [blood_oxygen]!")
 
         except InputError as e:
             print(e)
