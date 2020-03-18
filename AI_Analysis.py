@@ -16,7 +16,7 @@ class AI_Analysis(object):
 
     return list[ alarm_boolean , impulse , blood_pressure , blood_oxygen ]
     """
-    def analysis(impulse, blood_pressure, blood_oxygen, latest=3):
+    def analysis(self, impulse, blood_pressure, blood_oxygen, latest=3):
         try:
             # check latest
             if latest <= 0 or latest > 20:
