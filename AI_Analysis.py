@@ -9,8 +9,8 @@ class AI_Analysis(object):
         return "Very simple AI, Anti Intelligence"
 
     """
-    para impulse:           heartrate               list [ int (60,100] ]
-    para blood_pressure:    blood pressure          list [ list[ int (60,90] , int (90,140] ] ]
+    para impulse:           heartrate               list [ float (60,100] ]
+    para blood_pressure:    blood pressure          list [ list[ float (60,90] , float (90,140] ] ]
     para blood_oxygen:      blood oxygen            list [ float (0.0,1.0] ]
     para latest:            get latest N inputs     int (1,20]
 
