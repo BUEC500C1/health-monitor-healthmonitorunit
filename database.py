@@ -18,11 +18,19 @@ class database(object):
 	def save(self,time,impulse,oxygen):
 		self.data.append((time,impulse,oxygen))
 
-	def delete(self,number):
+	def deletenew(self,number):
 		length = len(self.data)
 		if length<number:
 			print("do not have enough data to delete")
 			raise NumberErro
 		else:
-			temp = self.data[length-number:length]
+			temp = self.data[0:length-number]
+			self.data = temp
+	def deleteold(self,number):
+		length = len(self.data)
+		if length<number:
+			print("do not have enough data to delete")
+			raise NumberErro
+		else:
+			temp = self.data[number:length]
 			self.data = temp
