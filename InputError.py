@@ -1,4 +1,4 @@
-class InputError(Exception):
+class InputError(Exception): #test eceptions
     def __init__(self, arg):
         super(InputError, self).__init__()
         self.arg = arg
