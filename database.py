@@ -1,6 +1,6 @@
 # a simple database for health monitor
 
-
+#Author: Junyou Chi (chi12@bu.edu)
 class database(object):
 
 	def __init__(self):
