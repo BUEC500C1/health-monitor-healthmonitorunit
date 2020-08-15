@@ -1,5 +1,7 @@
 import random
 
+#The author of this file is Chenhui Zhu (zhuch@bu.edu), I made some modification on some of the basic parameters in order to imitate a bionic pulse 
+
 def generatedata(n):
 #   generate fake values
   heartrate = random.randint(60,100)
