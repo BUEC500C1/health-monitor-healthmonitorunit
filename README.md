@@ -10,13 +10,13 @@ health-monitor-healthmonitorunit created by GitHub Classroom
 - Processor Integration: Hanchen Zhang (hczhang@bu.edu)
 
 ## User story
-- As a nurse in hospital, I want to see my patient’s pulse, blood pressure and blood oxygen concentration on configurable time intervals.
+- As a nurse in a hospital, I want to see my patient’s pulse, blood pressure, and blood oxygen concentration on configurable time intervals.
 - I also want to get alerts and warning if any of the data go out of the threshold value.
-- I want to get future prediction of all those data based on an AI module.
+- I want to get future predictions of all those data based on an AI module.
 
 ### Integration:
 ```
-git clone 
+git clone https://github.com/BUEC500C1/health-monitor-healthmonitorunit/tree/Hanchen-Zhang
 ```
 and then 
 ```
