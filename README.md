@@ -14,7 +14,7 @@ health-monitor-healthmonitorunit created by GitHub Classroom
 - I also want to get alerts and warning if any of the data go out of the threshold value.
 - I want to get future predictions of all those data based on an AI module.
 
-### Integration:
+### Processor for the Integration:
 ```
 git clone https://github.com/BUEC500C1/health-monitor-healthmonitorunit/tree/Hanchen-Zhang
 ```
