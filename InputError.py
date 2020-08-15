@@ -1,3 +1,4 @@
+# Author: Zhichao Lu (zhichaol@bu.edu)
 class InputError(Exception): #test eceptions
     def __init__(self, arg):
         super(InputError, self).__init__()
