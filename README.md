@@ -27,4 +27,4 @@ And you can see the following example result: <br/>
 - Red box: Some data elements out of the threshold value and refered to related medical description <br/>
 - Yellow box: current elements are normal but could runs out of the threshold in the future <br/><br/><br/>
 
-![res](https://github.com/BUEC500C1/health-monitor-healthmonitorunit/tree/Hanchen-Zhang/healthMonitorDemo.png)
+![](./healthMonitorDemo.png)
