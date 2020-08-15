@@ -1,5 +1,5 @@
 # The Monitor is to show the information from Sensor, AI module, and database to users and modify the data.
-
+# Author: Fengxu Tu (fengxutu@bu.edu) I removed the "processed data" module since it is almost dupliated with the raw data module
 # from sensor import generatedata
 from InputError import InputError
 
