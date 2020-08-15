@@ -1,4 +1,6 @@
 from AI_Analysis import AI_Analysis
+# Original file author: Ganghao Li (lighao@bu.edu). The original file does not have enough connection with other module, therefore I created two python class
+# from line 5 to 55 for alert and warning noticement
 
 class firstAlert(object):
   def __init__(self):
