@@ -1,5 +1,5 @@
 from InputError import InputError
-
+#Author: Jialun Wang (wjl1996@bu.edu) Here I simply commented the initial checks started from line 12 since these cases are posible in reality
 
 class AI_Analysis(object):
     def __init__(self):
