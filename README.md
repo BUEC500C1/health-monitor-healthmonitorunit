@@ -1,4 +1,5 @@
 # health-monitor-healthmonitorunit
+
 health-monitor-healthmonitorunit created by GitHub Classroom
 
 ## Team Members
@@ -28,3 +29,8 @@ And you can see the following example result: <br/>
 - Yellow box: current elements are normal but could runs out of the threshold in the future <br/><br/><br/>
 
 ![](./healthMonitorDemo.png)
+=======
+HW5
+
+![sys architecture](https://github.com/BUEC500C1/health-monitor-healthmonitorunit/blob/master/System%20Architecture.png)
+

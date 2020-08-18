@@ -1,5 +1,4 @@
 from InputError import InputError
-#Author: Jialun Wang (wjl1996@bu.edu) Here I simply commented the initial checks started from line 12 since these cases are posible in reality
 
 class AI_Analysis(object):
     def __init__(self):
@@ -10,21 +9,7 @@ class AI_Analysis(object):
 
     def analysis(self, impulse, blood_pressure, blood_oxygen, latest=3):
         # check latest
-        # if latest <= 0 or latest > 20:
-        #     raise InputError("Invalid [latest]!")
-        # # check impulse
-        # for ii in impulse:
-        #     if ii <= 60 or ii > 100:
-        #         raise InputError("Invalid [impulse]!")
-        # # check blood_pressure
-        # for jj in blood_pressure:
-        #     if jj[0] <= 60 or jj[0] > 90 or \
-        #        jj[1] <= 90 or jj[1] > 140:
-        #         raise InputError("Invalid [blood_pressure]!")
-        # # check blood_oxygen
-        # for kk in blood_oxygen:
-        #     if kk <= 0.0 or kk > 1.0:
-        #         raise InputError("Invalid [blood_oxygen]!")
+
 
         # This is extremely simple "AI" lol
         # impulse
@@ -54,5 +39,4 @@ class AI_Analysis(object):
         alarm_boolean = False
 
         return alarm_boolean, future_impulse, future_pressure, future_oxygen
-
 
