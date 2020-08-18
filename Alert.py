@@ -8,6 +8,7 @@ def alert(input_impulse, input_pressure, input_oxygen):
 
   #   Call for API from AI module 
   alarm_boolean, future_impulse, future_pressure, future_oxygen = AI_Analysis.analysis()
+
   flagAlert = False
   
   #   Compare data from AI with input data, and decide alert or not
@@ -25,3 +26,4 @@ def alert(input_impulse, input_pressure, input_oxygen):
     print("oxygen is beyongd standard value !")
     
   return flagAlert
+
