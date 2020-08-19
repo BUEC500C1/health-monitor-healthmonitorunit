@@ -5,7 +5,7 @@ class database(object):
 
 	def __init__(self):
 		self.data = list()
-		#return self;
+
 	def __str__(self):
 		return "database has" + str(len(self.data)) + "pieces data"
 
