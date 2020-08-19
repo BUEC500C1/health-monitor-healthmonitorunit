@@ -15,6 +15,17 @@ health-monitor-healthmonitorunit created by GitHub Classroom
 - I also want to get alerts and warning if any of the data go out of the threshold value.
 - I want to get future predictions of all those data based on an AI module.
 
+## Database
+- The main task for database part is to save health data from other part and give it to AI part to generate a recommandation.
+- functions: 
+- init: to initial the data base
+- str: return a string to show the numbers of data
+- getdata: get data from the newest by number
+- getdatabytime: get a data by spacial time
+- save: save a piece of data by (time,impulse,bloodPressure,oxygen)
+- deletenew: delete newest data by number
+- deleteold: delete oldest data by number
+
 ### Processor for the Integration:
 ```
 git clone https://github.com/BUEC500C1/health-monitor-healthmonitorunit/tree/Hanchen-Zhang
